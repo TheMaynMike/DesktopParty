@@ -17,7 +17,6 @@ int main()
 
 		for (int i = 0;; i++, i %= 6)
 		{
-			if (!i)RedrawWindow(0, 0, 0, 133);
 			int x = rand() % ScrW, y = rand() % ScrH, sx = rand() % 21 - 10, sy = rand() % 21 - 10;
 
 			HBRUSH brush = CreateHatchBrush(6, RGB(rand() % 255, rand() % 255, rand() % 255));
